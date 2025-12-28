@@ -70,9 +70,9 @@ const Table = (props) => {
                                         <td>{item.description}</td>
                                         <td><div className="profile-pic">{item.profilePic}</div></td>
                                         <td className="action-buttons">
-                                            <button onClick={()=>props.handleedit(item)} className="btn btn-edit">Edit</button>
-                                            <button onClick={()=>props.handledelete(item.id)} className="btn btn-delete">Delete</button>
-                                            {/* <button className="btn btn-view">View</button> */}
+                                            <button onClick={() => props.handleedit(item)} className="btn btn-edit">Edit</button>
+                                            <button onClick={() => props.handledelete(item.id)} className="btn btn-delete">Delete</button>
+                                            <button className="btn btn-view">View</button>
                                         </td>
 
                                     </tr>
